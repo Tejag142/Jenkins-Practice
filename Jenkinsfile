@@ -3,13 +3,13 @@ pipeline {
         any
     }
     stages {
-        stage (Build) {
+        stage ( Build ) {
             echo 'Building..'
         }
-        stage (Test) {
+        stage ( Test ) {
             echo 'Testing done'
         }
-        stage (deployment) {
+        stage ( Deploy ) {
             echo "deployment done"
         }
     }
