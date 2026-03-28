@@ -4,13 +4,19 @@ pipeline {
     }
     stages {
         stage ( Build ) {
-            echo 'Building..'
+            steps {
+                echo 'Building is done'
+            }
         }
         stage ( Test ) {
-            echo 'Testing done'
+            steps {
+                echo 'Testing done'
+            }
         }
         stage ( Deploy ) {
-            echo "deployment done"
+            steps {
+                echo 'Deploy is done'
+            }
         }
     }
 }
