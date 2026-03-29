@@ -3,6 +3,7 @@ pipeline {
         label 'JAVA-AGENT-1'
     }
     environment{
+        ksdjfn="kjshdhfi"
 
     }
     options{
