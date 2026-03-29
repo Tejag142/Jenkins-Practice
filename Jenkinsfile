@@ -24,7 +24,7 @@ pipeline {
                 script {
                     sh """
 
-                    echo 'Hello ${params.PERSON} Building is done'
+                    echo 'Hello ${params.PERSON} Building done'
 
                     """
                 }
